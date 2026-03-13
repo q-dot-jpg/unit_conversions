@@ -14,9 +14,9 @@ let pound = 0
 btn.addEventListener("click", function() {
     console.log(input.value)
     convert(input.value)
-    mf.innerHTML = `${input.value} Meters = ${feet} feet | ${input.value} feet = ${meter} meters`
-    lg.innerHTML = `${input.value} Litres = ${gallon} gallons | ${input.value} gallons = ${liter} litres`
-    kp.innerHTML = `${input.value} kilos = ${pound} pounds | ${input.value} pounds = ${kilo} kilos`
+    mf.innerHTML = `${input.value} Meters = ${feet} Feet | ${input.value} feet = ${meter} meters`
+    lg.innerHTML = `${input.value} Litres = ${gallon} Gallons | ${input.value} gallons = ${liter} litres`
+    kp.innerHTML = `${input.value} Kilos = ${pound} Pounds | ${input.value} pounds = ${kilo} kilos`
 })
 
 function convert(val) {
